@@ -33,7 +33,9 @@ export default {
 }
 
 .max_size {
-  max-width: 1230px;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 </style>

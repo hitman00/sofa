@@ -41,7 +41,9 @@ export default {
 }
 
 .max_size {
-  max-width: 1230px;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -98,7 +100,7 @@ export default {
   &:before {
     content: '';
     display: block;
-    padding-bottom: 70%;
+    padding-bottom: 75%;
   }
   img {
     position: absolute;
@@ -107,6 +109,48 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .sofa_boxs {
+    flex-direction: column;
+  }
+
+  .boxs {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title {
+    margin: 0 10%;
+  }
+
+  .description {
+    margin: 5% 20%;
+  }
+
+  .btns {
+    display: none;
+  }
+
+  .frame_image {
+    margin: 0px auto 15%;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+  .description {
+    margin: 5% 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 33px;
   }
 }
 </style>

@@ -10,6 +10,7 @@
         <li>Contact us</li>
         <li>Login</li>
       </ul>
+      <img src="@/assets/imgs/menoba.png" />
     </div>
   </div>
 </template>
@@ -36,6 +37,7 @@ export default {
 .menobar {
   width: 80%;
   font-weight: 600;
+  position: relative;
   ul {
     display: flex;
     justify-content: end;
@@ -47,6 +49,34 @@ export default {
       &:hover {
         background: #000;
       }
+    }
+  }
+  img {
+    display: none;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 800px) {
+  .header_top_main {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .menobar {
+    ul {
+      display: none;
+    }
+    img {
+      display: block;
     }
   }
 }

@@ -24,6 +24,7 @@ export default {
 
 <style lang="scss" module>
 .getstart_main {
+  margin-top: 3%;
   color: #fff;
   width: 100%;
   background: linear-gradient(
@@ -35,10 +36,12 @@ export default {
 }
 
 .max_size {
-  max-width: 1230px;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   display: flex;
-  padding: 8.6% 0;
+  padding: 8.6% 15px;
 }
 
 .boxs {
@@ -69,6 +72,34 @@ export default {
   right: 0;
   &:hover {
     opacity: 0.7;
+  }
+}
+
+@media (max-width: 800px) {
+  .max_size {
+    flex-direction: column;
+  }
+
+  .boxs {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .get_btn {
+    position: unset;
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 25px;
   }
 }
 </style>

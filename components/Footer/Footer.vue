@@ -18,6 +18,7 @@
         </div>
       </div>
     </div>
+    <div :class="$style.copy_right_2">Fundo, 2021 Allright reserved</div>
   </div>
 </template>
 
@@ -50,10 +51,11 @@ export default {
 }
 
 .max_size {
-  max-width: 1230px;
+  max-width: 1200px;
+
   margin: 0 auto;
   display: flex;
-  padding: 10% 0 7%;
+  padding: 10% 15px 7%;
 }
 
 .footer_boxs,
@@ -86,6 +88,13 @@ export default {
 .copy_right {
   margin-left: 13%;
 }
+.copy_right_2 {
+  display: none;
+  text-align: center;
+  font-weight: 600;
+  padding: 2% 0;
+  background: #313416;
+}
 
 .meno_box {
   width: 30%;
@@ -103,6 +112,58 @@ export default {
   cursor: pointer;
   &:hover {
     opacity: 0.7;
+  }
+}
+@media (max-width: 800px) {
+  .max_size {
+    flex-direction: column-reverse;
+  }
+
+  .footer_boxs {
+    margin: 7% auto 0;
+    width: 80%;
+  }
+
+  .menobar {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .copy_right {
+    display: none;
+  }
+
+  .copy_right_2 {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .menobar_title {
+    font-size: 16px;
+  }
+
+  .menobar_page {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menobar_title {
+    font-size: 20px;
+  }
+
+  .menobar_page {
+    font-size: 16px;
+  }
+
+  .menobar {
+    flex-direction: column;
+  }
+
+  .meno_box {
+    width: 100%;
+    text-align: center;
   }
 }
 </style>

@@ -137,4 +137,58 @@ export default {
   margin-left: 25%;
   padding-bottom: 20%;
 }
+
+@media (max-width: 800px) {
+  .slider_main {
+    flex-direction: column;
+    margin-top: 9%;
+  }
+
+  .slide_text,
+  .slide_items {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .description {
+    margin: 6% 0;
+  }
+
+  .btn {
+    margin: 0 auto 2%;
+  }
+
+  .slider_title {
+    margin: 18% 3% 11%;
+  }
+
+  .cost {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .slide_items {
+    flex-direction: column;
+  }
+
+  .boxs {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .slider_image {
+    width: 51%;
+    margin-top: 7.5%;
+  }
+
+  .cost {
+    padding-bottom: 10%;
+  }
+}
 </style>

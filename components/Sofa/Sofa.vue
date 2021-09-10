@@ -38,4 +38,11 @@ export default {
     bottom: 0;
   }
 }
+
+@media (max-width: 800px) {
+  .sofa_image {
+    margin: -26% auto 0;
+    width: 75%;
+  }
+}
 </style>
