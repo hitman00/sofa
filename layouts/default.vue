@@ -21,6 +21,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
