@@ -2,15 +2,14 @@
 
 I try to implement this concept design for web.
 
+ ![Image](https://github.com/hitman00/sofa/blob/master/assets/imgs/sofa.PNG)
+
+
 ## Link
 
 - [Demo](https://hitman00.github.io/sofa/)
 - Concept page: [Dribbble page](https://dribbble.com/shots/15405230-Furniture-Landing-Page-Design)
 - Images: [Google](https://google.com) - [Dribbble](https://dribbble.com/)
-
-## Images
-
- ![Image](https://github.com/hitman00/sofa/blob/master/assets/imgs/sofa.PNG)
 
 ## Technologies
 
