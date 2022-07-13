@@ -8,7 +8,7 @@
         <li>Furniture</li>
         <li>Blog</li>
         <li>Contact us</li>
-        <li><a href="http://localhost:3000/sofa/">Github</a></li>
+        <li><a href="https://github.com/hitman00/sofa" target="_blank">Github</a></li>
       </ul>
       <img src="@/assets/imgs/menoba.png" />
     </div>
